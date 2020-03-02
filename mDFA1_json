@@ -1,0 +1,71 @@
+{
+  "states": [
+    "q0",
+    "q1",
+    "q2",
+    "ns0",
+    "q5"
+  ],
+  "inputs": [
+    "0",
+    "1"
+  ],
+  "initialState": "q0",
+  "finalStates": [
+    "q2",
+    "q3",
+    "q4"
+  ],
+  "transitions": [
+    {
+      "from": "q0",
+      "input": "0",
+      "to": "q1"
+    },
+    {
+      "from": "q0",
+      "input": "1",
+      "to": "q2"
+    },
+    {
+      "from": "q1",
+      "input": "0",
+      "to": "q0"
+    },
+    {
+      "from": "q1",
+      "input": "1",
+      "to": "ns0"
+    },
+    {
+      "from": "q2",
+      "input": "0",
+      "to": "ns0"
+    },
+    {
+      "from": "q2",
+      "input": "1",
+      "to": "q5"
+    },
+    {
+      "from": "ns0",
+      "input": "0",
+      "to": "ns0"
+    },
+    {
+      "from": "ns0",
+      "input": "1",
+      "to": "q5"
+    },
+    {
+      "from": "q5",
+      "input": "0",
+      "to": "q5"
+    },
+    {
+      "from": "q5",
+      "input": "1",
+      "to": "q5"
+    }
+  ]
+}

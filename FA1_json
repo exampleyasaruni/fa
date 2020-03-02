@@ -1,0 +1,102 @@
+{
+  "states": [
+    "p0",
+    "p1",
+    "p2",
+    "p3",
+    "p4",
+    "p5",
+    "p6",
+    "p7"
+  ],
+  "inputs": [
+    "a",
+    "b"
+  ],
+  "initialState": "p0",
+  "finalStates": [
+    "p7"
+  ],
+  "transitions": [
+    {
+      "from": "p0",
+      "input": "a",
+      "to": "p1"
+    },
+    {
+      "from": "p0",
+      "input": "b",
+      "to": "p4"
+    },
+    {
+      "from": "p1",
+      "input": "a",
+      "to": "p2"
+    },
+    {
+      "from": "p1",
+      "input": "b",
+      "to": "p4"
+    },
+    {
+      "from": "p2",
+      "input": "a",
+      "to": "p2"
+    },
+    {
+      "from": "p2",
+      "input": "b",
+      "to": "p3"
+    },
+    {
+      "from": "p3",
+      "input": "a",
+      "to": "p2"
+    },
+    {
+      "from": "p3",
+      "input": "b",
+      "to": "p7"
+    },
+    {
+      "from": "p4",
+      "input": "a",
+      "to": "p1"
+    },
+    {
+      "from": "p4",
+      "input": "b",
+      "to": "p5"
+    },
+    {
+      "from": "p5",
+      "input": "a",
+      "to": "p6"
+    },
+    {
+      "from": "p5",
+      "input": "b",
+      "to": "p5"
+    },
+    {
+      "from": "p6",
+      "input": "a",
+      "to": "p7"
+    },
+    {
+      "from": "p6",
+      "input": "b",
+      "to": "p5"
+    },
+    {
+      "from": "p7",
+      "input": "a",
+      "to": "p7"
+    },
+    {
+      "from": "p7",
+      "input": "b",
+      "to": "p7"
+    }
+  ]
+}

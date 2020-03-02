@@ -1,0 +1,554 @@
+{
+  "states": [
+    "p0q0",
+    "p0q1",
+    "p0q2",
+    "p0q3",
+    "p0q4",
+    "p0q5",
+    "p1q0",
+    "p1q1",
+    "p1q2",
+    "p1q3",
+    "p1q4",
+    "p1q5",
+    "p2q0",
+    "p2q1",
+    "p2q2",
+    "p2q3",
+    "p2q4",
+    "p2q5",
+    "p3q0",
+    "p3q1",
+    "p3q2",
+    "p3q3",
+    "p3q4",
+    "p3q5",
+    "p4q0",
+    "p4q1",
+    "p4q2",
+    "p4q3",
+    "p4q4",
+    "p4q5",
+    "p5q0",
+    "p5q1",
+    "p5q2",
+    "p5q3",
+    "p5q4",
+    "p5q5",
+    "p6q0",
+    "p6q1",
+    "p6q2",
+    "p6q3",
+    "p6q4",
+    "p6q5",
+    "p7q0",
+    "p7q1",
+    "p7q2",
+    "p7q3",
+    "p7q4",
+    "p7q5"
+  ],
+  "inputs": [
+    "a",
+    "b"
+  ],
+  "initialState": "p0q0",
+  "finalStates": [
+    "p7q5",
+    "p7q0",
+    "p7q1",
+    "p7q2",
+    "p7q3",
+    "p7q4",
+    "p0q5",
+    "p1q5",
+    "p2q5",
+    "p3q5",
+    "p4q5",
+    "p5q5",
+    "p6q5"
+  ],
+  "transitions": [
+    {
+      "from": "p0q0",
+      "input": "a",
+      "to": "p1q2"
+    },
+    {
+      "from": "p0q1",
+      "input": "a",
+      "to": "p1q3"
+    },
+    {
+      "from": "p0q2",
+      "input": "a",
+      "to": "p1q4"
+    },
+    {
+      "from": "p0q3",
+      "input": "a",
+      "to": "p1q5"
+    },
+    {
+      "from": "p0q4",
+      "input": "a",
+      "to": "p1q4"
+    },
+    {
+      "from": "p0q5",
+      "input": "a",
+      "to": "p1q5"
+    },
+    {
+      "from": "p0q0",
+      "input": "b",
+      "to": "p4q1"
+    },
+    {
+      "from": "p0q1",
+      "input": "b",
+      "to": "p4q0"
+    },
+    {
+      "from": "p0q2",
+      "input": "b",
+      "to": "p4q3"
+    },
+    {
+      "from": "p0q3",
+      "input": "b",
+      "to": "p4q2"
+    },
+    {
+      "from": "p0q4",
+      "input": "b",
+      "to": "p4q5"
+    },
+    {
+      "from": "p0q5",
+      "input": "b",
+      "to": "p4q4"
+    },
+    {
+      "from": "p1q0",
+      "input": "a",
+      "to": "p2q2"
+    },
+    {
+      "from": "p1q1",
+      "input": "a",
+      "to": "p2q3"
+    },
+    {
+      "from": "p1q2",
+      "input": "a",
+      "to": "p2q4"
+    },
+    {
+      "from": "p1q3",
+      "input": "a",
+      "to": "p2q5"
+    },
+    {
+      "from": "p1q4",
+      "input": "a",
+      "to": "p2q4"
+    },
+    {
+      "from": "p1q5",
+      "input": "a",
+      "to": "p2q5"
+    },
+    {
+      "from": "p1q0",
+      "input": "b",
+      "to": "p4q1"
+    },
+    {
+      "from": "p1q1",
+      "input": "b",
+      "to": "p4q0"
+    },
+    {
+      "from": "p1q2",
+      "input": "b",
+      "to": "p4q3"
+    },
+    {
+      "from": "p1q3",
+      "input": "b",
+      "to": "p4q2"
+    },
+    {
+      "from": "p1q4",
+      "input": "b",
+      "to": "p4q5"
+    },
+    {
+      "from": "p1q5",
+      "input": "b",
+      "to": "p4q4"
+    },
+    {
+      "from": "p2q0",
+      "input": "a",
+      "to": "p2q2"
+    },
+    {
+      "from": "p2q1",
+      "input": "a",
+      "to": "p2q3"
+    },
+    {
+      "from": "p2q2",
+      "input": "a",
+      "to": "p2q4"
+    },
+    {
+      "from": "p2q3",
+      "input": "a",
+      "to": "p2q5"
+    },
+    {
+      "from": "p2q4",
+      "input": "a",
+      "to": "p2q4"
+    },
+    {
+      "from": "p2q5",
+      "input": "a",
+      "to": "p2q5"
+    },
+    {
+      "from": "p2q0",
+      "input": "b",
+      "to": "p3q1"
+    },
+    {
+      "from": "p2q1",
+      "input": "b",
+      "to": "p3q0"
+    },
+    {
+      "from": "p2q2",
+      "input": "b",
+      "to": "p3q3"
+    },
+    {
+      "from": "p2q3",
+      "input": "b",
+      "to": "p3q2"
+    },
+    {
+      "from": "p2q4",
+      "input": "b",
+      "to": "p3q5"
+    },
+    {
+      "from": "p2q5",
+      "input": "b",
+      "to": "p3q4"
+    },
+    {
+      "from": "p3q0",
+      "input": "a",
+      "to": "p2q2"
+    },
+    {
+      "from": "p3q1",
+      "input": "a",
+      "to": "p2q3"
+    },
+    {
+      "from": "p3q2",
+      "input": "a",
+      "to": "p2q4"
+    },
+    {
+      "from": "p3q3",
+      "input": "a",
+      "to": "p2q5"
+    },
+    {
+      "from": "p3q4",
+      "input": "a",
+      "to": "p2q4"
+    },
+    {
+      "from": "p3q5",
+      "input": "a",
+      "to": "p2q5"
+    },
+    {
+      "from": "p3q0",
+      "input": "b",
+      "to": "p7q1"
+    },
+    {
+      "from": "p3q1",
+      "input": "b",
+      "to": "p7q0"
+    },
+    {
+      "from": "p3q2",
+      "input": "b",
+      "to": "p7q3"
+    },
+    {
+      "from": "p3q3",
+      "input": "b",
+      "to": "p7q2"
+    },
+    {
+      "from": "p3q4",
+      "input": "b",
+      "to": "p7q5"
+    },
+    {
+      "from": "p3q5",
+      "input": "b",
+      "to": "p7q4"
+    },
+    {
+      "from": "p4q0",
+      "input": "a",
+      "to": "p1q2"
+    },
+    {
+      "from": "p4q1",
+      "input": "a",
+      "to": "p1q3"
+    },
+    {
+      "from": "p4q2",
+      "input": "a",
+      "to": "p1q4"
+    },
+    {
+      "from": "p4q3",
+      "input": "a",
+      "to": "p1q5"
+    },
+    {
+      "from": "p4q4",
+      "input": "a",
+      "to": "p1q4"
+    },
+    {
+      "from": "p4q5",
+      "input": "a",
+      "to": "p1q5"
+    },
+    {
+      "from": "p4q0",
+      "input": "b",
+      "to": "p5q1"
+    },
+    {
+      "from": "p4q1",
+      "input": "b",
+      "to": "p5q0"
+    },
+    {
+      "from": "p4q2",
+      "input": "b",
+      "to": "p5q3"
+    },
+    {
+      "from": "p4q3",
+      "input": "b",
+      "to": "p5q2"
+    },
+    {
+      "from": "p4q4",
+      "input": "b",
+      "to": "p5q5"
+    },
+    {
+      "from": "p4q5",
+      "input": "b",
+      "to": "p5q4"
+    },
+    {
+      "from": "p5q0",
+      "input": "a",
+      "to": "p6q2"
+    },
+    {
+      "from": "p5q1",
+      "input": "a",
+      "to": "p6q3"
+    },
+    {
+      "from": "p5q2",
+      "input": "a",
+      "to": "p6q4"
+    },
+    {
+      "from": "p5q3",
+      "input": "a",
+      "to": "p6q5"
+    },
+    {
+      "from": "p5q4",
+      "input": "a",
+      "to": "p6q4"
+    },
+    {
+      "from": "p5q5",
+      "input": "a",
+      "to": "p6q5"
+    },
+    {
+      "from": "p5q0",
+      "input": "b",
+      "to": "p5q1"
+    },
+    {
+      "from": "p5q1",
+      "input": "b",
+      "to": "p5q0"
+    },
+    {
+      "from": "p5q2",
+      "input": "b",
+      "to": "p5q3"
+    },
+    {
+      "from": "p5q3",
+      "input": "b",
+      "to": "p5q2"
+    },
+    {
+      "from": "p5q4",
+      "input": "b",
+      "to": "p5q5"
+    },
+    {
+      "from": "p5q5",
+      "input": "b",
+      "to": "p5q4"
+    },
+    {
+      "from": "p6q0",
+      "input": "a",
+      "to": "p7q2"
+    },
+    {
+      "from": "p6q1",
+      "input": "a",
+      "to": "p7q3"
+    },
+    {
+      "from": "p6q2",
+      "input": "a",
+      "to": "p7q4"
+    },
+    {
+      "from": "p6q3",
+      "input": "a",
+      "to": "p7q5"
+    },
+    {
+      "from": "p6q4",
+      "input": "a",
+      "to": "p7q4"
+    },
+    {
+      "from": "p6q5",
+      "input": "a",
+      "to": "p7q5"
+    },
+    {
+      "from": "p6q0",
+      "input": "b",
+      "to": "p5q1"
+    },
+    {
+      "from": "p6q1",
+      "input": "b",
+      "to": "p5q0"
+    },
+    {
+      "from": "p6q2",
+      "input": "b",
+      "to": "p5q3"
+    },
+    {
+      "from": "p6q3",
+      "input": "b",
+      "to": "p5q2"
+    },
+    {
+      "from": "p6q4",
+      "input": "b",
+      "to": "p5q5"
+    },
+    {
+      "from": "p6q5",
+      "input": "b",
+      "to": "p5q4"
+    },
+    {
+      "from": "p7q0",
+      "input": "a",
+      "to": "p7q2"
+    },
+    {
+      "from": "p7q1",
+      "input": "a",
+      "to": "p7q3"
+    },
+    {
+      "from": "p7q2",
+      "input": "a",
+      "to": "p7q4"
+    },
+    {
+      "from": "p7q3",
+      "input": "a",
+      "to": "p7q5"
+    },
+    {
+      "from": "p7q4",
+      "input": "a",
+      "to": "p7q4"
+    },
+    {
+      "from": "p7q5",
+      "input": "a",
+      "to": "p7q5"
+    },
+    {
+      "from": "p7q0",
+      "input": "b",
+      "to": "p7q1"
+    },
+    {
+      "from": "p7q1",
+      "input": "b",
+      "to": "p7q0"
+    },
+    {
+      "from": "p7q2",
+      "input": "b",
+      "to": "p7q3"
+    },
+    {
+      "from": "p7q3",
+      "input": "b",
+      "to": "p7q2"
+    },
+    {
+      "from": "p7q4",
+      "input": "b",
+      "to": "p7q5"
+    },
+    {
+      "from": "p7q5",
+      "input": "b",
+      "to": "p7q4"
+    }
+  ]
+}

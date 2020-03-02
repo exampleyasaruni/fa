@@ -1,0 +1,60 @@
+{
+  "states": [
+    "q0",
+    "q1",
+    "q2",
+    "q3",
+    "q4"
+  ],
+  "inputs": [
+    "a",
+    "b",
+    "c"
+  ],
+  "initialState": "q0",
+  "finalStates": [
+    "q3"
+  ],
+  "transitions": [
+    {
+      "from": "q0",
+      "input": "a",
+      "to": "q1"
+    },
+    {
+      "from": "q1",
+      "input": "\u003cepsilon\u003e",
+      "to": "q2"
+    },
+    {
+      "from": "q0",
+      "input": "b",
+      "to": "q4"
+    },
+    {
+      "from": "q1",
+      "input": "\u003cepsilon\u003e",
+      "to": "q4"
+    },
+    {
+      "from": "q2",
+      "input": "b",
+      "to": "q4"
+    },
+    {
+      "from": "q3",
+      "input": "a",
+      "to": "q2"
+    },
+    {
+      "from": "q3",
+      "input": "c",
+      "to": "q1"
+    },
+    {
+      "from": "q4",
+      "input": "c",
+      "to": "q3"
+    }
+  ]
+}
