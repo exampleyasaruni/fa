@@ -35,7 +35,7 @@ public class Main {
 		System.out.println("FA1");
 		System.out.println(FA1_fromjson.toString());
 		tools.toJson(new File("FA1_json"), fa1);
-		
+		// Aaaa asaaa aaaa a aaa a a aa aa 
 		
 		/* isDeterministic test FA2 */
 		Set<String> states2 = new LinkedHashSet<>();
