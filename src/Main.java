@@ -10,7 +10,7 @@ public class Main {
 	public static void main(String[] args) throws IOException {
 		FiniteAutomatonTools tools = new FiniteAutomatonTools();
 		boolean bool = false;
-
+		// change 3
 		/* isDeterministic test FA1 */
 		Set<String> states1 = new LinkedHashSet<>(); // Example DFA (FiniteAutomaton - 21. Slide)
 		states1.add("p0"); states1.add("p1"); states1.add("p2");
