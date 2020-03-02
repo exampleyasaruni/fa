@@ -6,7 +6,7 @@ import java.util.Set;
 import automaton.*;
 
 public class Main {
-	// Change
+	// Change 4
 	public static void main(String[] args) throws IOException {
 		FiniteAutomatonTools tools = new FiniteAutomatonTools();
 		boolean bool = false;
